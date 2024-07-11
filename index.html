@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <input type="number" id="input" placeholder="Nhập số n" />
+    <button id="btn">Thêm</button>
+    <div id="mang"></div>
+
+    <!-- BT1: Tính tổng -->
+    <h3>1. Tổng các số dương trong mảng</h3>
+    <button id="tinhTong" class="btn btn-primary">Tính</button>
+    <p>Tổng các số dương: <span id="tongCacSoDuong"></span></p>
+
+    <!-- BT2: Đếm số dương -->
+    <h3>2. Đếm có bao nhiêu số dương trong mảng</h3>
+    <button id="demSoDuong" class="btn btn-primary">Đếm</button>
+    <p>Số dương: <span id="soDuong"></span></p>
+
+    <!-- BT3: Tìm số nhỏ nhất -->
+    <h3>3. Tìm số nhỏ nhất trong mảng</h3>
+    <button id="timSoNhoNhat">Tìm</button>
+    <p>Số nhỏ nhất: <span id="soMin"></span></p>
+
+    <!-- BT4: Tìm số dương nhỏ nhất -->
+    <h3>Tìm số dương nhỏ nhất trong mảng</h3>
+    <button id="timSoDuongNhoNhat">Tìm</button>
+    <p>Số dương nhỏ nhất: <span id="soDuongMin"></span></p>
+
+    <!-- BT5: Tìm số chẵn cuối cùng -->
+    <h3>
+      Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị chẵn thì trả
+      về -1.
+    </h3>
+    <button id="timSoChanCuoi">Tìm</button>
+    <p>Số chẵn cuối cùng: <span id="soChanCuoi"></span></p>
+
+    <!-- BT6: Đổi chỗ 2 giá trị -->
+    <h3>
+      Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho nhập vào 2 vị trí muốn đổi
+      chỗ giá trị)
+    </h3>
+    <input type="number" id="viTri1" placeholder="Nhập vị trí 1" />
+    <input type="number" id="viTri2" placeholder="Nhập vị trí 2" />
+    <button id="doiCho">Đổi</button>
+    <p>Mảng sau khi đổi: <span id="mangDoi"></span></p>
+
+    <!-- BT7: Sắp xếp theo thứ tự tăng dần -->
+    <h3>Sắp xếp mảng theo thứ tự tăng dần</h3>
+    <button id="sapTangDan">Sắp xếp</button>
+    <p>Mảng sau khi sắp xếp: <span id="mangTangDan"></span></p>
+
+    <!-- BT8: Tìm số nguyên tố đầu tiên -->
+    <h3>
+      Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số nguyên tố thì
+      trả về –1
+    </h3>
+    <button id="timSoNguyenToDauTien">Tìm</button>
+    <p>Số nguyên tố đầu tiên: <span id="soNguyenToDauTien"></span></p>
+
+    <!-- BT9: Tìm có bao nhiêu số nguyên -->
+    <h3>Nhập thêm 1 mảng số thực, tìm xem trong mảng có bao nhiêu số nguyên</h3>
+    <input type="number" id="input2" placeholder="Nhập số thực" />
+    <button id="themSoThuc">Thêm</button>
+    <p id="mangSoThuc"></p>
+    <button id="timSoNguyen">Tìm</button>
+    <p>Số nguyên: <span id="soNguyen"></span></p>
+
+    <!-- BT10: So sánh số dương và số âm -->
+    <h3>So sánh số lượng số dương và số lượng số âm xem số nào nhiều hơn</h3>
+    <button id="soSanh">So sánh</button>
+    <p>Số dương: <span id="numDuong"></span></p>
+    <p>Số âm: <span id="numAm"></span></p>
+    <p id="ketQuaSs"></p>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
